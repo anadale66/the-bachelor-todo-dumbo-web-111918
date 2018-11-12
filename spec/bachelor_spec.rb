@@ -15,7 +15,7 @@ describe "bachelor" do
       expect(get_first_name_of_season_winner(data, "season 15")).to eq("Emily")
     end
   end
-
+  
   describe "#get_contestant_name" do
     it "returns 'Carly Waddel' when passed data and the string 'Cruise Ship Singer'" do
       expect(get_contestant_name(data, "Cruise Ship Singer")).to eq("Carly Waddell")
